@@ -5,7 +5,7 @@ Following my discovery of the robust Dutch housing market, I set out to develop 
 
 However, I would like to express my concern about the inconsistent date value structure of the CBS data. Each table has a unique format, with some containing information such as the year and quarter (e.g. 2021 3rd quarter), while others only have the month (e.g. 2022 November). This makes the automation process more complex, as each table requires different cleaning and handling codes. I kindly request that if someone from the CBS reads this research, they standardize the date values and make the data available for download with parameters for YoY change, MoM change, and YTD change. This is a feature that is available from the Turkish Central Bank Data Bank (EVDS).
 
-With this in mind, I have prepared six charts, each of which I will explain in detail below. I may update the scripts in time with new charts. 
+With this in mind, I have prepared six charts, each of which I explain in detail below. I may update the scripts in time with new charts. I installed libraries each time because that if you copy the specific chart then it directly works on your device. Feel free to fork and use the codes.
 
 
 
