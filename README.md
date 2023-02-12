@@ -38,7 +38,7 @@ It loads the data using the cbsodata library and filters the data to only includ
 The purpose of the code is to plot the Dutch House Price Index (HPI) and the number of dwellings sold in a quarterly basis from 2015 to 2022. The code uses the CBS Open Data API to retrieve the data for the HPI and filters it for the specified periods. The data is then grouped and unstacked to separate the data for new own homes and existing own homes. The HPI is plotted on a line graph, while the number of dwellings sold is plotted on a stacked column chart. Both charts are combined into one plot with two y-axes and a legend is added to distinguish between the two.
 
 
-## 5) House Price Index values for European Countries with openBB:
+## 5) House Price Index comparison for European Countries with openBB:
 
 The purpose of this code is to retrieve house price index data for six European countries (Netherlands, Germany, France, Belgium, Sweden, and Spain) and compare their data using a line plot. The data is obtained using the openbb_terminal.sdk library's economy.macro function, which is imported as openbb. The data is filtered to include only the house price index (HOU) and only the data within the time frame of 2009-01-01 to 2022-07-01. The first value of each series is divided by 100 to get the rate, and this rate is applied to each data point to normalize the data. The line plot is created using the matplotlib library, and the title of the plot is set to "European Countries House Price Index Comparison." Finally, the data is saved to an Excel file named "nethouse.xlsx". If you wonder how to install openBB SDK library here is the link https://docs.openbb.co/sdk/quickstart/installation . They group the data queried from the EconDB database.
 
